@@ -5,6 +5,8 @@ import java.time.LocalDate;
 import com.abhishekvermaa10.enums.Gender;
 import com.abhishekvermaa10.enums.PetType;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.PastOrPresent;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -20,6 +22,8 @@ import lombok.ToString;
 @Getter
 public class DomesticPetDTO extends PetDTO {
 
+	@PastOrPresent(message = "{pet.birth.date.old}")
+	@NotNull(message = "{pet.birth.date.required}")
 	private LocalDate birthDate;
 
 	@Builder

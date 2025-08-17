@@ -2,6 +2,7 @@ package com.abhishekvermaa10.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,8 +13,10 @@ import com.abhishekvermaa10.dto.PetDTO;
 import com.abhishekvermaa10.exception.PetNotFoundException;
 import com.abhishekvermaa10.service.PetService;
 
+import jakarta.validation.constraints.Min;
 import lombok.RequiredArgsConstructor;
 
+@Validated
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/petistaan/pets")
@@ -23,7 +26,7 @@ public class PetController {
 	
 	//option 6
 	@GetMapping("/{id}")
-	public ResponseEntity<PetDTO> fetchPetDTO(@PathVariable Integer id) throws PetNotFoundException{
+	public ResponseEntity<PetDTO> fetchPetDTO(@PathVariable @Min(value = 1, message = "{pet.id.positive}") Integer id) throws PetNotFoundException{
 		PetDTO petDTO = petService.findPet(id);
 		return ResponseEntity.status(HttpStatus.OK).body(petDTO);
 	}
