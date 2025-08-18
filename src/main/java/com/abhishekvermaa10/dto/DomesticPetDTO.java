@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import com.abhishekvermaa10.enums.Gender;
 import com.abhishekvermaa10.enums.PetType;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.PastOrPresent;
 import lombok.Builder;
@@ -22,6 +23,7 @@ import lombok.ToString;
 @Getter
 public class DomesticPetDTO extends PetDTO {
 
+	@Schema(description = "Date of birth of the pet")
 	@PastOrPresent(message = "{pet.birth.date.old}")
 	@NotNull(message = "{pet.birth.date.required}")
 	private LocalDate birthDate;

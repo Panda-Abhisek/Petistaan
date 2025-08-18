@@ -6,13 +6,14 @@ logging:
     rollingpolicy:
       file-name-pattern: ${logging.file.path}/${spring.application.name}-%d{yyyy-MM-dd}-%i.log
       max-file-size: 10MB
+
 spring:
   application:
     name: Petistaan
   datasource:
-    password: 123
     url: jdbc:postgresql://localhost:5432/petistaan
     username: postgres
+    password: 123
   jpa:
     hibernate:
       ddl-auto: update
@@ -20,3 +21,27 @@ spring:
   sql:
     init:
       mode: never
+
+springdoc:
+  api-docs:
+    path: /documentation
+  swagger-ui:
+    path: /swagger.html
+  show-actuator: true
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: ${spring.application.name}
+  message: "Subscribe Abhishek Verma to learn Java"

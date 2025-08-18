@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -30,15 +31,20 @@ import lombok.ToString;
 @Getter
 public abstract class PetDTO {
 
+	@Schema(description = "Unique ID of the pet")
 	@EqualsAndHashCode.Include
 	private int id;
+	@Schema(description = "Name of the pet")
 	@Size(max = 255, message = "{pet.name.length}")
 	@NotBlank(message = "{pet.name.required}")
 	private String name;
+	@Schema(description = "Gender of the pet")
 	@NotNull(message = "{pet.gender.required}")
 	private Gender gender;
+	@Schema(description = "Type of the pet")
 	@NotNull(message = "{pet.type.required}")
 	private PetType type;
+	@Schema(description = "Owner details of the pet")
 	private OwnerDTO ownerDTO;
 
 }
