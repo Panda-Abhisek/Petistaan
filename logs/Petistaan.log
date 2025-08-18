@@ -1,22 +1,22 @@
-2025-08-17T12:13:18.764+05:30  INFO 6516 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Starting Demo using Java 21.0.7 with PID 6516 (C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan\target\classes started by Dell in C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan)
-2025-08-17T12:13:18.767+05:30  INFO 6516 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : No active profile set, falling back to 1 default profile: "default"
-2025-08-17T12:13:18.804+05:30  INFO 6516 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-17T12:13:18.804+05:30  INFO 6516 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-17T12:13:19.650+05:30  INFO 6516 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-17T12:13:19.712+05:30  INFO 6516 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
-2025-08-17T12:13:20.310+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-17T12:13:20.323+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-17T12:13:20.323+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-17T12:13:20.373+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-17T12:13:20.373+05:30  INFO 6516 --- [Petistaan] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1567 ms
-2025-08-17T12:13:20.551+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-17T12:13:20.621+05:30  INFO 6516 --- [Petistaan] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
-2025-08-17T12:13:20.661+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-17T12:13:20.949+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-17T12:13:20.980+05:30  INFO 6516 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-08-17T12:13:21.170+05:30  INFO 6516 --- [Petistaan] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34c4f3ed
-2025-08-17T12:13:21.172+05:30  INFO 6516 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-08-17T12:13:21.261+05:30  INFO 6516 --- [Petistaan] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-08-18T15:30:36.297+05:30  INFO 20092 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Starting Demo using Java 21.0.7 with PID 20092 (C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan\target\classes started by Dell in C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan)
+2025-08-18T15:30:36.302+05:30  INFO 20092 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T15:30:36.345+05:30  INFO 20092 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-18T15:30:36.345+05:30  INFO 20092 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-18T15:30:37.390+05:30  INFO 20092 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-18T15:30:37.450+05:30  INFO 20092 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2025-08-18T15:30:38.079+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-18T15:30:38.094+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-18T15:30:38.094+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-18T15:30:38.142+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-18T15:30:38.143+05:30  INFO 20092 --- [Petistaan] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1796 ms
+2025-08-18T15:30:38.321+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-18T15:30:38.391+05:30  INFO 20092 --- [Petistaan] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-18T15:30:38.427+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-18T15:30:38.712+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-18T15:30:38.743+05:30  INFO 20092 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-18T15:30:38.938+05:30  INFO 20092 --- [Petistaan] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@506af09d
+2025-08-18T15:30:38.939+05:30  INFO 20092 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-18T15:30:39.033+05:30  INFO 20092 --- [Petistaan] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.9
@@ -24,471 +24,42 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-08-17T12:13:22.178+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-17T12:13:22.317+05:30  INFO 6516 --- [Petistaan] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T12:13:22.578+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-08-17T12:13:23.173+05:30  WARN 6516 --- [Petistaan] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ownerController' defined in file [C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan\target\classes\com\abhishekvermaa10\controller\OwnerController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'ownerServiceImpl' defined in file [C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan\target\classes\com\abhishekvermaa10\service\impl\OwnerServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'com.abhishekvermaa10.util.OwnerPetInfoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2025-08-17T12:13:23.173+05:30  INFO 6516 --- [Petistaan] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T12:13:23.177+05:30  INFO 6516 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-08-17T12:13:23.181+05:30  INFO 6516 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-08-17T12:13:23.185+05:30  INFO 6516 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-08-17T12:13:23.194+05:30  INFO 6516 --- [Petistaan] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-08-17T12:13:23.215+05:30 ERROR 6516 --- [Petistaan] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 2 of constructor in com.abhishekvermaa10.service.impl.OwnerServiceImpl required a bean of type 'com.abhishekvermaa10.util.OwnerPetInfoMapper' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.abhishekvermaa10.util.OwnerPetInfoMapper' in your configuration.
-
-2025-08-17T12:16:01.582+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Starting Demo using Java 21.0.7 with PID 4592 (C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan\target\classes started by Dell in C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan)
-2025-08-17T12:16:01.585+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : No active profile set, falling back to 1 default profile: "default"
-2025-08-17T12:16:01.619+05:30  INFO 4592 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-17T12:16:01.619+05:30  INFO 4592 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-17T12:16:02.148+05:30  INFO 4592 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-17T12:16:02.205+05:30  INFO 4592 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
-2025-08-17T12:16:02.685+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-17T12:16:02.696+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-17T12:16:02.696+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-17T12:16:02.734+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-17T12:16:02.734+05:30  INFO 4592 --- [Petistaan] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1115 ms
-2025-08-17T12:16:02.884+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-17T12:16:02.928+05:30  INFO 4592 --- [Petistaan] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
-2025-08-17T12:16:02.956+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-17T12:16:03.178+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-17T12:16:03.203+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-08-17T12:16:03.345+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7344600d
-2025-08-17T12:16:03.347+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-08-17T12:16:03.404+05:30  INFO 4592 --- [Petistaan] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-08-17T12:16:04.227+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-17T12:16:04.322+05:30  INFO 4592 --- [Petistaan] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T12:16:04.544+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-08-17T12:16:05.352+05:30  WARN 4592 --- [Petistaan] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-08-17T12:16:05.765+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-08-17T12:16:05.797+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-08-17T12:16:05.803+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Started Demo in 4.607 seconds (process running for 5.153)
-2025-08-17T12:16:37.850+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-17T12:16:37.851+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-08-17T12:16:37.852+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-08-17T12:16:37.939+05:30 ERROR 4592 --- [Petistaan] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.ConstraintViolationException: getOwnerById.id: Owner id must be a positive number.] with root cause
-
-jakarta.validation.ConstraintViolationException: getOwnerById.id: Owner id must be a positive number.
-	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:170) ~[spring-context-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
-	at com.abhishekvermaa10.controller.OwnerController$$SpringCGLIB$$0.getOwnerById(<generated>) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-08-17T12:17:06.216+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-4] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [73]
-2025-08-17T12:17:06.283+05:30 ERROR 4592 --- [Petistaan] [http-nio-8080-exec-4] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with exception as Can't find owner with ownerId 73
-2025-08-17T12:17:06.285+05:30 ERROR 4592 --- [Petistaan] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.abhishekvermaa10.exception.OwnerNotFoundException: Can't find owner with ownerId 73] with root cause
-
-com.abhishekvermaa10.exception.OwnerNotFoundException: Can't find owner with ownerId 73
-	at com.abhishekvermaa10.service.impl.OwnerServiceImpl.lambda$1(OwnerServiceImpl.java:48) ~[classes/:na]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(OwnerServiceImpl.java:48) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
-	at com.abhishekvermaa10.service.impl.OwnerServiceImpl$$SpringCGLIB$$0.findOwner(<generated>) ~[classes/:na]
-	at com.abhishekvermaa10.controller.OwnerController.getOwnerById(OwnerController.java:47) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:174) ~[spring-context-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
-	at com.abhishekvermaa10.controller.OwnerController$$SpringCGLIB$$0.getOwnerById(<generated>) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-08-17T12:17:16.153+05:30  INFO 4592 --- [Petistaan] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2025-08-17T12:17:16.156+05:30  INFO 4592 --- [Petistaan] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-17T12:17:16.164+05:30  INFO 4592 --- [Petistaan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-08-17T12:17:16.166+05:30  INFO 4592 --- [Petistaan] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T12:17:16.168+05:30  INFO 4592 --- [Petistaan] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-08-17T12:17:16.170+05:30  INFO 4592 --- [Petistaan] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-08-17T12:17:16.244+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Starting Demo using Java 21.0.7 with PID 4592 (C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan\target\classes started by Dell in C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan)
-2025-08-17T12:17:16.244+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : No active profile set, falling back to 1 default profile: "default"
-2025-08-17T12:17:16.401+05:30  INFO 4592 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-17T12:17:16.420+05:30  INFO 4592 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
-2025-08-17T12:17:16.517+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-17T12:17:16.518+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-17T12:17:16.518+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-17T12:17:16.537+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-17T12:17:16.538+05:30  INFO 4592 --- [Petistaan] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 292 ms
-2025-08-17T12:17:16.599+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-17T12:17:16.602+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-17T12:17:16.610+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-17T12:17:16.611+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2025-08-17T12:17:16.664+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@52befc53
-2025-08-17T12:17:16.665+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2025-08-17T12:17:16.676+05:30  INFO 4592 --- [Petistaan] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-08-17T12:17:16.798+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-17T12:17:16.857+05:30  INFO 4592 --- [Petistaan] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T12:17:17.033+05:30  WARN 4592 --- [Petistaan] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-08-17T12:17:17.247+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-08-17T12:17:17.258+05:30  INFO 4592 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-08-17T12:17:17.261+05:30  INFO 4592 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Started Demo in 1.042 seconds (process running for 76.611)
-2025-08-17T12:17:17.263+05:30  INFO 4592 --- [Petistaan] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-08-17T12:17:22.118+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-17T12:17:22.118+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-08-17T12:17:22.119+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-08-17T12:17:22.125+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-2] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [73]
-2025-08-17T12:17:22.133+05:30 ERROR 4592 --- [Petistaan] [http-nio-8080-exec-2] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with exception as Can't find owner with ownerId 73
-2025-08-17T12:17:22.134+05:30 ERROR 4592 --- [Petistaan] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.abhishekvermaa10.exception.OwnerNotFoundException: Can't find owner with ownerId 73] with root cause
-
-com.abhishekvermaa10.exception.OwnerNotFoundException: Can't find owner with ownerId 73
-	at com.abhishekvermaa10.service.impl.OwnerServiceImpl.lambda$1(OwnerServiceImpl.java:48) ~[classes/:na]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(OwnerServiceImpl.java:48) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
-	at com.abhishekvermaa10.service.impl.OwnerServiceImpl$$SpringCGLIB$$0.findOwner(<generated>) ~[classes/:na]
-	at com.abhishekvermaa10.controller.OwnerController.getOwnerById(OwnerController.java:47) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:174) ~[spring-context-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
-	at com.abhishekvermaa10.controller.OwnerController$$SpringCGLIB$$0.getOwnerById(<generated>) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-08-17T12:17:28.469+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-4] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [72]
-2025-08-17T12:17:28.490+05:30  INFO 4592 --- [Petistaan] [http-nio-8080-exec-4] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO(id=72, firstName=Olivia, lastName=Hernandez, gender=F, city=Kargil, state=Ladakh, mobileNumber=9009009072, emailId=olivia.hernandez2@scaleupindia.com, petDTO=WildPetDTO(super=PetDTO(id=72, name=Max, gender=M, type=RABBIT, ownerDTO=null), birthPlace=Wayanad Wildlife Sanctuary))
-2025-08-17T12:17:52.477+05:30  INFO 4592 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-08-17T12:17:52.478+05:30  INFO 4592 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-17T12:17:52.483+05:30  INFO 4592 --- [Petistaan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-08-17T12:17:52.484+05:30  INFO 4592 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T12:17:52.485+05:30  INFO 4592 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2025-08-17T12:17:52.487+05:30  INFO 4592 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2025-08-17T23:09:03.155+05:30  INFO 11588 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Starting Demo using Java 21.0.7 with PID 11588 (C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan\target\classes started by Dell in C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan)
-2025-08-17T23:09:03.158+05:30  INFO 11588 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : No active profile set, falling back to 1 default profile: "default"
-2025-08-17T23:09:03.193+05:30  INFO 11588 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-17T23:09:03.194+05:30  INFO 11588 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-17T23:09:04.206+05:30  INFO 11588 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-17T23:09:04.261+05:30  INFO 11588 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
-2025-08-17T23:09:04.828+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-17T23:09:04.840+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-17T23:09:04.841+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-17T23:09:04.896+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-17T23:09:04.897+05:30  INFO 11588 --- [Petistaan] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1703 ms
-2025-08-17T23:09:05.108+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-17T23:09:05.179+05:30  INFO 11588 --- [Petistaan] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
-2025-08-17T23:09:05.220+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-17T23:09:05.508+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-17T23:09:05.540+05:30  INFO 11588 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-08-17T23:09:05.696+05:30  INFO 11588 --- [Petistaan] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6bb0b5d6
-2025-08-17T23:09:05.698+05:30  INFO 11588 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-08-17T23:09:05.794+05:30  INFO 11588 --- [Petistaan] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-08-17T23:09:06.736+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-17T23:09:06.896+05:30  INFO 11588 --- [Petistaan] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T23:09:07.158+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-08-17T23:09:08.003+05:30  WARN 11588 --- [Petistaan] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-08-17T23:09:08.267+05:30  WARN 11588 --- [Petistaan] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=com.abhishekvermaa10.exception.OwnerNotFoundException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.abhishekvermaa10.exception.GlobalExceptionHandler.handleOwnerNotFoundException(com.abhishekvermaa10.exception.OwnerNotFoundException), public org.springframework.http.ResponseEntity com.abhishekvermaa10.exception.GlobalExceptionHandler.handlePetNotFoundException(com.abhishekvermaa10.exception.PetNotFoundException)}
-2025-08-17T23:09:08.267+05:30  INFO 11588 --- [Petistaan] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T23:09:08.269+05:30  INFO 11588 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-08-17T23:09:08.273+05:30  INFO 11588 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-08-17T23:09:08.277+05:30  INFO 11588 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-08-17T23:09:08.286+05:30  INFO 11588 --- [Petistaan] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-08-17T23:09:08.302+05:30 ERROR 11588 --- [Petistaan] [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerExceptionResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=com.abhishekvermaa10.exception.OwnerNotFoundException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.abhishekvermaa10.exception.GlobalExceptionHandler.handleOwnerNotFoundException(com.abhishekvermaa10.exception.OwnerNotFoundException), public org.springframework.http.ResponseEntity com.abhishekvermaa10.exception.GlobalExceptionHandler.handlePetNotFoundException(com.abhishekvermaa10.exception.PetNotFoundException)}
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.4.jar:3.5.4]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
-	at com.abhishekvermaa10.Demo.main(Demo.java:17) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception with message: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=com.abhishekvermaa10.exception.OwnerNotFoundException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.abhishekvermaa10.exception.GlobalExceptionHandler.handleOwnerNotFoundException(com.abhishekvermaa10.exception.OwnerNotFoundException), public org.springframework.http.ResponseEntity com.abhishekvermaa10.exception.GlobalExceptionHandler.handlePetNotFoundException(com.abhishekvermaa10.exception.PetNotFoundException)}
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169) ~[spring-beans-6.2.9.jar:6.2.9]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.9.jar:6.2.9]
-	... 24 common frames omitted
-Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [ExceptionHandler{exceptionType=com.abhishekvermaa10.exception.OwnerNotFoundException, mediaType=*/*}]: {public org.springframework.http.ResponseEntity com.abhishekvermaa10.exception.GlobalExceptionHandler.handleOwnerNotFoundException(com.abhishekvermaa10.exception.OwnerNotFoundException), public org.springframework.http.ResponseEntity com.abhishekvermaa10.exception.GlobalExceptionHandler.handlePetNotFoundException(com.abhishekvermaa10.exception.PetNotFoundException)}
-	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:146) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.<init>(ExceptionHandlerMethodResolver.java:99) ~[spring-web-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:320) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:287) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1084) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:1025) ~[spring-webmvc-6.2.9.jar:6.2.9]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172) ~[spring-beans-6.2.9.jar:6.2.9]
-	... 27 common frames omitted
-
-2025-08-17T23:10:26.326+05:30  INFO 9144 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Starting Demo using Java 21.0.7 with PID 9144 (C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan\target\classes started by Dell in C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan)
-2025-08-17T23:10:26.328+05:30  INFO 9144 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : No active profile set, falling back to 1 default profile: "default"
-2025-08-17T23:10:26.364+05:30  INFO 9144 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-17T23:10:26.364+05:30  INFO 9144 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-17T23:10:26.928+05:30  INFO 9144 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-17T23:10:26.990+05:30  INFO 9144 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
-2025-08-17T23:10:27.501+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-17T23:10:27.511+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-17T23:10:27.512+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-17T23:10:27.550+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-17T23:10:27.551+05:30  INFO 9144 --- [Petistaan] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1185 ms
-2025-08-17T23:10:27.700+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-17T23:10:27.744+05:30  INFO 9144 --- [Petistaan] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
-2025-08-17T23:10:27.771+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-17T23:10:28.012+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-17T23:10:28.039+05:30  INFO 9144 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-08-17T23:10:28.176+05:30  INFO 9144 --- [Petistaan] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f6587a5
-2025-08-17T23:10:28.177+05:30  INFO 9144 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-08-17T23:10:28.233+05:30  INFO 9144 --- [Petistaan] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-08-17T23:10:29.094+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-17T23:10:29.190+05:30  INFO 9144 --- [Petistaan] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T23:10:29.409+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-08-17T23:10:30.234+05:30  WARN 9144 --- [Petistaan] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-08-17T23:10:30.621+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-08-17T23:10:30.652+05:30  INFO 9144 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-08-17T23:10:30.659+05:30  INFO 9144 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Started Demo in 4.717 seconds (process running for 5.273)
-2025-08-17T23:10:45.562+05:30  INFO 9144 --- [Petistaan] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-17T23:10:45.562+05:30  INFO 9144 --- [Petistaan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-08-17T23:10:45.563+05:30  INFO 9144 --- [Petistaan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-08-17T23:10:45.648+05:30  INFO 9144 --- [Petistaan] [http-nio-8080-exec-2] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [73]
-2025-08-17T23:10:45.735+05:30 ERROR 9144 --- [Petistaan] [http-nio-8080-exec-2] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with exception as Can't find owner with ownerId 73
-2025-08-17T23:10:45.799+05:30  WARN 9144 --- [Petistaan] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.abhishekvermaa10.exception.OwnerNotFoundException: Can't find owner with ownerId 73]
-2025-08-17T23:10:57.818+05:30  INFO 9144 --- [Petistaan] [http-nio-8080-exec-3] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [72]
-2025-08-17T23:10:57.843+05:30  INFO 9144 --- [Petistaan] [http-nio-8080-exec-3] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO(id=72, firstName=Olivia, lastName=Hernandez, gender=F, city=Kargil, state=Ladakh, mobileNumber=9009009072, emailId=olivia.hernandez2@scaleupindia.com, petDTO=WildPetDTO(super=PetDTO(id=72, name=Max, gender=M, type=RABBIT, ownerDTO=null), birthPlace=Wayanad Wildlife Sanctuary))
-2025-08-17T23:17:22.433+05:30  WARN 9144 --- [Petistaan] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Integer> com.abhishekvermaa10.controller.OwnerController.addOwner(com.abhishekvermaa10.dto.OwnerDTO) with 6 errors: [Field error in object 'ownerDTO' on field 'city': rejected value [null]; codes [NotBlank.ownerDTO.city,NotBlank.city,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.city,city]; arguments []; default message [city]]; default message [City of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'petDTO': rejected value [null]; codes [NotNull.ownerDTO.petDTO,NotNull.petDTO,NotNull.com.abhishekvermaa10.dto.PetDTO,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.petDTO,petDTO]; arguments []; default message [petDTO]]; default message [Pet of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'mobileNumber': rejected value [null]; codes [NotBlank.ownerDTO.mobileNumber,NotBlank.mobileNumber,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.mobileNumber,mobileNumber]; arguments []; default message [mobileNumber]]; default message [Mobile number of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'gender': rejected value [null]; codes [NotNull.ownerDTO.gender,NotNull.gender,NotNull.com.abhishekvermaa10.enums.Gender,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.gender,gender]; arguments []; default message [gender]]; default message [Gender of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'emailId': rejected value [null]; codes [NotBlank.ownerDTO.emailId,NotBlank.emailId,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.emailId,emailId]; arguments []; default message [emailId]]; default message [Email id of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'state': rejected value [null]; codes [NotBlank.ownerDTO.state,NotBlank.state,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.state,state]; arguments []; default message [state]]; default message [State of owner is mandatory.]] ]
-2025-08-17T23:28:23.260+05:30  WARN 9144 --- [Petistaan] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Integer> com.abhishekvermaa10.controller.OwnerController.addOwner(com.abhishekvermaa10.dto.OwnerDTO) with 6 errors: [Field error in object 'ownerDTO' on field 'gender': rejected value [null]; codes [NotNull.ownerDTO.gender,NotNull.gender,NotNull.com.abhishekvermaa10.enums.Gender,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.gender,gender]; arguments []; default message [gender]]; default message [Gender of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'emailId': rejected value [null]; codes [NotBlank.ownerDTO.emailId,NotBlank.emailId,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.emailId,emailId]; arguments []; default message [emailId]]; default message [Email id of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'city': rejected value [null]; codes [NotBlank.ownerDTO.city,NotBlank.city,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.city,city]; arguments []; default message [city]]; default message [City of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'state': rejected value [null]; codes [NotBlank.ownerDTO.state,NotBlank.state,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.state,state]; arguments []; default message [state]]; default message [State of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'petDTO': rejected value [null]; codes [NotNull.ownerDTO.petDTO,NotNull.petDTO,NotNull.com.abhishekvermaa10.dto.PetDTO,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.petDTO,petDTO]; arguments []; default message [petDTO]]; default message [Pet of owner is mandatory.]] [Field error in object 'ownerDTO' on field 'mobileNumber': rejected value [null]; codes [NotBlank.ownerDTO.mobileNumber,NotBlank.mobileNumber,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerDTO.mobileNumber,mobileNumber]; arguments []; default message [mobileNumber]]; default message [Mobile number of owner is mandatory.]] ]
-2025-08-17T23:28:38.229+05:30  INFO 9144 --- [Petistaan] [http-nio-8080-exec-10] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [73]
-2025-08-17T23:28:38.234+05:30 ERROR 9144 --- [Petistaan] [http-nio-8080-exec-10] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with exception as Can't find owner with ownerId 73
-2025-08-17T23:28:38.236+05:30  WARN 9144 --- [Petistaan] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.abhishekvermaa10.exception.OwnerNotFoundException: Can't find owner with ownerId 73]
-2025-08-17T23:34:52.638+05:30  WARN 9144 --- [Petistaan] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.abhishekvermaa10.dto.PetDTO]]
-2025-08-17T23:35:41.361+05:30  WARN 9144 --- [Petistaan] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.abhishekvermaa10.dto.PetDTO]]
-2025-08-17T23:38:19.749+05:30  WARN 9144 --- [Petistaan] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.abhishekvermaa10.dto.PetDTO]]
-2025-08-17T23:39:34.931+05:30  INFO 9144 --- [Petistaan] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-08-17T23:39:34.934+05:30  INFO 9144 --- [Petistaan] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-17T23:39:34.940+05:30  INFO 9144 --- [Petistaan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-08-17T23:39:34.945+05:30  INFO 9144 --- [Petistaan] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-17T23:39:34.948+05:30  INFO 9144 --- [Petistaan] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-08-17T23:39:34.950+05:30  INFO 9144 --- [Petistaan] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-18T15:30:39.983+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-18T15:30:40.118+05:30  INFO 20092 --- [Petistaan] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-18T15:30:40.365+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-18T15:30:41.179+05:30  WARN 20092 --- [Petistaan] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-18T15:30:41.579+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-18T15:30:41.613+05:30  INFO 20092 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-18T15:30:41.619+05:30  INFO 20092 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Started Demo in 5.757 seconds (process running for 6.506)
+2025-08-18T15:31:04.276+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18T15:31:04.277+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-18T15:31:04.278+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-18T15:31:04.394+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-2] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [73]
+2025-08-18T15:31:04.487+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-2] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO(id=73, firstName=Olivia, lastName=Hernandez, gender=F, city=Kargil, state=Ladakh, mobileNumber=9009009077, emailId=olivia.hernandez23@scaleupindia.com, petDTO=WildPetDTO(super=PetDTO(id=73, name=Maxxy, gender=M, type=RABBIT, ownerDTO=null), birthPlace=Wayanad Wildlife Sanctuary))
+2025-08-18T15:31:16.670+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-3] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [73]
+2025-08-18T15:31:16.674+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-3] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO(id=73, firstName=Olivia, lastName=Hernandez, gender=F, city=Kargil, state=Ladakh, mobileNumber=9009009077, emailId=olivia.hernandez23@scaleupindia.com, petDTO=WildPetDTO(super=PetDTO(id=73, name=Maxxy, gender=M, type=RABBIT, ownerDTO=null), birthPlace=Wayanad Wildlife Sanctuary))
+2025-08-18T15:31:22.802+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-4] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [74]
+2025-08-18T15:31:22.818+05:30 ERROR 20092 --- [Petistaan] [http-nio-8080-exec-4] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with exception as ownerId 74 वाले स्वामी को नहीं ढूंढा जा सका
+2025-08-18T15:31:22.832+05:30  WARN 20092 --- [Petistaan] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.abhishekvermaa10.exception.OwnerNotFoundException: ownerId 74 वाले स्वामी को नहीं ढूंढा जा सका]
+2025-08-18T15:31:31.292+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-5] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [74]
+2025-08-18T15:31:31.295+05:30 ERROR 20092 --- [Petistaan] [http-nio-8080-exec-5] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with exception as Can't find owner with ownerId 74
+2025-08-18T15:31:31.297+05:30  WARN 20092 --- [Petistaan] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.abhishekvermaa10.exception.OwnerNotFoundException: Can't find owner with ownerId 74]
+2025-08-18T15:31:38.358+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-6] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [74]
+2025-08-18T15:31:38.361+05:30 ERROR 20092 --- [Petistaan] [http-nio-8080-exec-6] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with exception as ownerId 74 वाले स्वामी को नहीं ढूंढा जा सका
+2025-08-18T15:31:38.362+05:30  WARN 20092 --- [Petistaan] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.abhishekvermaa10.exception.OwnerNotFoundException: ownerId 74 वाले स्वामी को नहीं ढूंढा जा सका]
+2025-08-18T15:31:53.386+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-7] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [73]
+2025-08-18T15:31:53.389+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-7] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO(id=73, firstName=Olivia, lastName=Hernandez, gender=F, city=Kargil, state=Ladakh, mobileNumber=9009009077, emailId=olivia.hernandez23@scaleupindia.com, petDTO=WildPetDTO(super=PetDTO(id=73, name=Maxxy, gender=M, type=RABBIT, ownerDTO=null), birthPlace=Wayanad Wildlife Sanctuary))
+2025-08-18T15:32:30.200+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-8] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [72]
+2025-08-18T15:32:30.203+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-8] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO(id=72, firstName=Olivia, lastName=Hernandez, gender=F, city=Kargil, state=Ladakh, mobileNumber=9009009072, emailId=olivia.hernandez2@scaleupindia.com, petDTO=WildPetDTO(super=PetDTO(id=72, name=Max, gender=M, type=RABBIT, ownerDTO=null), birthPlace=Wayanad Wildlife Sanctuary))
+2025-08-18T15:32:34.521+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-9] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [70]
+2025-08-18T15:32:34.525+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-9] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO(id=70, firstName=Ava, lastName=Rogers, gender=F, city=Jammu, state=Jammu and Kashmir, mobileNumber=9009009070, emailId=ava.rogers2@scaleupindia.com, petDTO=WildPetDTO(super=PetDTO(id=70, name=Lucy, gender=F, type=FISH, ownerDTO=null), birthPlace=Hemis National Park))
+2025-08-18T15:32:40.095+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-10] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [23]
+2025-08-18T15:32:40.114+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-10] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO(id=23, firstName=Andrew, lastName=Murphy, gender=M, city=Thiruvananthapuram, state=Kerala, mobileNumber=9009009023, emailId=andrew.murphy@scaleupindia.com, petDTO=DomesticPetDTO(super=PetDTO(id=23, name=Milo, gender=M, type=RABBIT, ownerDTO=null), birthDate=1976-06-06, formattedBirthDate=रविवार, 6 जून 1976))
+2025-08-18T15:32:54.834+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-1] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [23]
+2025-08-18T15:32:54.840+05:30  INFO 20092 --- [Petistaan] [http-nio-8080-exec-1] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO(id=23, firstName=Andrew, lastName=Murphy, gender=M, city=Thiruvananthapuram, state=Kerala, mobileNumber=9009009023, emailId=andrew.murphy@scaleupindia.com, petDTO=DomesticPetDTO(super=PetDTO(id=23, name=Milo, gender=M, type=RABBIT, ownerDTO=null), birthDate=1976-06-06, formattedBirthDate=Sunday, June 6, 1976))
+2025-08-18T15:37:24.142+05:30  INFO 20092 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-18T15:37:24.144+05:30  INFO 20092 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-18T15:37:24.152+05:30  INFO 20092 --- [Petistaan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-18T15:37:24.154+05:30  INFO 20092 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-18T15:37:24.157+05:30  INFO 20092 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-18T15:37:24.160+05:30  INFO 20092 --- [Petistaan] [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
