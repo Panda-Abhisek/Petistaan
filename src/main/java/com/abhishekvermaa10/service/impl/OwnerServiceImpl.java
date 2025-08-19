@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.List;
+
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.data.domain.Page;
@@ -16,12 +17,14 @@ import com.abhishekvermaa10.dto.DomesticPetDTO;
 import com.abhishekvermaa10.dto.OwnerDTO;
 import com.abhishekvermaa10.dto.OwnerPetInfoDTO;
 import com.abhishekvermaa10.dto.PetDTO;
+import com.abhishekvermaa10.dto.WildPetDTO;
 import com.abhishekvermaa10.entity.Owner;
 import com.abhishekvermaa10.exception.OwnerNotFoundException;
 import com.abhishekvermaa10.repository.OwnerRepository;
 import com.abhishekvermaa10.service.OwnerService;
 import com.abhishekvermaa10.util.OwnerMapper;
 import com.abhishekvermaa10.util.OwnerPetInfoMapper;
+import com.abhishekvermaa10.util.TransliterationAPI;
 
 import lombok.RequiredArgsConstructor;
 
@@ -48,10 +51,11 @@ public class OwnerServiceImpl implements OwnerService {
 	}
 
 	@Override
-	public OwnerDTO findOwner(int ownerId) throws OwnerNotFoundException {
+	public OwnerDTO findOwner(int ownerId, String isoCode) throws OwnerNotFoundException {
 		return ownerRepository.findById(ownerId)
 				.map(ownerMapper::ownerToOwnerDTO)
 				.map(this::formatDates)
+				.map(ownerDTO -> transliterate(ownerDTO, isoCode))
 				.orElseThrow(() -> new OwnerNotFoundException(String.format(getMessage(OWNER_NOT_FOUND_KEY), ownerId)));
 	}
 
@@ -113,6 +117,19 @@ public class OwnerServiceImpl implements OwnerService {
 	
 	private String getMessage(String key) {
 		return messageSource.getMessage(key, null, LocaleContextHolder.getLocale());
+	}
+	
+	private OwnerDTO transliterate(OwnerDTO ownerDTO, String isoCode) {
+		ownerDTO.setFirstName(TransliterationAPI.transliterate(ownerDTO.getFirstName(), isoCode));
+		ownerDTO.setLastName(TransliterationAPI.transliterate(ownerDTO.getLastName(), isoCode));
+		ownerDTO.setCity(TransliterationAPI.transliterate(ownerDTO.getCity(), isoCode));
+		ownerDTO.setState(TransliterationAPI.transliterate(ownerDTO.getState(), isoCode));
+		PetDTO petDTO = ownerDTO.getPetDTO();
+		petDTO.setName(TransliterationAPI.transliterate(petDTO.getName(), isoCode));
+		if(petDTO instanceof WildPetDTO wildPetDTO) {
+			wildPetDTO.setBirthPlace(TransliterationAPI.transliterate(wildPetDTO.getBirthPlace(), isoCode));
+		}
+		return ownerDTO;
 	}
 	
 }

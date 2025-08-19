@@ -16,7 +16,7 @@ public interface OwnerService {
 	
 	Integer saveOwner(OwnerDTO ownerDTO);
 
-	OwnerDTO findOwner(int ownerId) throws OwnerNotFoundException;
+	OwnerDTO findOwner(int ownerId, String isoCode) throws OwnerNotFoundException;
 
 	void updatePetDetails(int ownerId, String petName) throws OwnerNotFoundException;
 

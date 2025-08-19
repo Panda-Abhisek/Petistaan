@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -64,8 +65,8 @@ public class OwnerController {
 	@ApiResponse(responseCode = "404", description = "Owner Not Found", content = @Content(schema = @Schema(implementation = ErrorDTO.class)))
 	@ApiResponse(responseCode = "500", description = "Internal Server Error", content = @Content(schema = @Schema(implementation = ErrorDTO.class)))
 	@GetMapping("/{id}")
-	public ResponseEntity<OwnerDTO> getOwnerById(@PathVariable @Min(value = 1, message = "{owner.id.positive}") Integer id) throws OwnerNotFoundException{
-		OwnerDTO ownerDTO = ownerService.findOwner(id);
+	public ResponseEntity<OwnerDTO> getOwnerById(@PathVariable @Min(value = 1, message = "{owner.id.positive}") Integer id, @RequestHeader(name = "Accept-Language", required = false) String isoCode) throws OwnerNotFoundException{
+		OwnerDTO ownerDTO = ownerService.findOwner(id, isoCode);
 		return ResponseEntity.status(HttpStatus.OK).body(ownerDTO);
 	}
 	
