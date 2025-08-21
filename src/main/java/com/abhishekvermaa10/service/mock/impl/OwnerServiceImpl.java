@@ -1,4 +1,4 @@
-package com.abhishekvermaa10.service.impl;
+package com.abhishekvermaa10.service.mock.impl;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -25,14 +25,13 @@ import com.abhishekvermaa10.repository.OwnerRepository;
 import com.abhishekvermaa10.service.OwnerService;
 import com.abhishekvermaa10.util.OwnerMapper;
 import com.abhishekvermaa10.util.OwnerPetInfoMapper;
-import com.abhishekvermaa10.util.TransliterationAPI;
 
 import lombok.RequiredArgsConstructor;
 
 /**
  * @author abhishekvermaa10
  */
-@Profile("prod")
+@Profile("dev")
 @RequiredArgsConstructor
 @Service
 public class OwnerServiceImpl implements OwnerService {
@@ -122,16 +121,15 @@ public class OwnerServiceImpl implements OwnerService {
 	}
 	
 	private OwnerDTO transliterate(OwnerDTO ownerDTO, String isoCode) {
-		ownerDTO.setFirstName(TransliterationAPI.transliterate(ownerDTO.getFirstName(), isoCode));
-		ownerDTO.setLastName(TransliterationAPI.transliterate(ownerDTO.getLastName(), isoCode));
-		ownerDTO.setCity(TransliterationAPI.transliterate(ownerDTO.getCity(), isoCode));
-		ownerDTO.setState(TransliterationAPI.transliterate(ownerDTO.getState(), isoCode));
+		ownerDTO.setFirstName("Dummy");
+		ownerDTO.setLastName("Dummy");
+		ownerDTO.setCity("Dummy");
+		ownerDTO.setState("Dummy");
 		PetDTO petDTO = ownerDTO.getPetDTO();
-		petDTO.setName(TransliterationAPI.transliterate(petDTO.getName(), isoCode));
+		petDTO.setName("Dummy");
 		if(petDTO instanceof WildPetDTO wildPetDTO) {
-			wildPetDTO.setBirthPlace(TransliterationAPI.transliterate(wildPetDTO.getBirthPlace(), isoCode));
+			wildPetDTO.setBirthPlace("Dummy");
 		}
 		return ownerDTO;
 	}
-	
 }

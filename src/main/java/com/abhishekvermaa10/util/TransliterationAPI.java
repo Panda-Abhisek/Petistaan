@@ -3,11 +3,13 @@ package com.abhishekvermaa10.util;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+@Profile("prod")
 public class TransliterationAPI {
 	private static final String API = "https://inputtools.google.com/request?itc=%s&text=%s";
 

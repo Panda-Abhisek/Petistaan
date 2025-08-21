@@ -1,0 +1,7 @@
+logging:
+  file:
+    path: logs/test
+  logback:
+    rollingpolicy:
+      file-name-pattern: ${logging.file.path}/${spring.application.name}-%d{yyyy-MM-dd}-%i.log
+      max-file-size: 5MB
