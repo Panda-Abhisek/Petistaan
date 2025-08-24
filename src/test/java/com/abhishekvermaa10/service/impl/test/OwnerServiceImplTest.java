@@ -58,6 +58,7 @@ class OwnerServiceImplTest {
 	void test_FindOwner_WhenOwnerExists_ShouldReturnOwnerDTO() throws OwnerNotFoundException {
 		// Given
 		int inputOwnerId = 1;
+//		String isoCode = "hi";
 		Owner expectedOwner = new Owner();
 		Pet expectedDomesticPet = new DomesticPet();
 		expectedOwner.setPet(expectedDomesticPet);
@@ -73,6 +74,7 @@ class OwnerServiceImplTest {
 	void test_FindOwner_WhenOwnerDoesNotExist_ShouldThrowOwnerNotFoundException() {
 		// Given
 		int inputOwnerId = 1;
+//		String isoCode = "hi";
 		when(ownerRepository.findById(inputOwnerId)).thenReturn(Optional.empty());
 		String expectedMessage = String.format("Can't find owner with ownerId %s", inputOwnerId);
 		// When & Then

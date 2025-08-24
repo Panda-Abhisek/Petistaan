@@ -3,7 +3,7 @@ logging:
     name: ${logging.file.path}/${spring.application.name}.log
 spring:
   application:
-    name: Petistaan
+    name: PetistaanClient
   datasource:
     url: jdbc:postgresql://localhost:5432/petistaan
     username: postgres
@@ -17,7 +17,18 @@ spring:
       mode: never
   profiles:
     active: prod
+  boot:
+    admin:
+      client:
+        url: http://localhost:9091 
+        instance:
+          service-base-url: http://localhost:8080
+          metadata:
+            instance-id: unique-client-id
 
+server:
+  servlet:
+    context-path: /petistaan		
 springdoc:
   api-docs:
     path: /documentation
@@ -29,10 +40,14 @@ management:
   endpoint:
     health:
       show-details: always
+    env:
+      show-values: always
+    configprops:
+      show-values: always
   endpoints:
     web:
       exposure:
-        include: health, env, configprops
+        include: "*"
   info:
     env:
       enabled: true

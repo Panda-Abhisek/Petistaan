@@ -25,7 +25,7 @@ import lombok.RequiredArgsConstructor;
 @Validated
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/petistaan/pets")
+@RequestMapping("/pets")
 @Tag(name = "Pet", description = "APIs for managing pets")
 
 public class PetController {

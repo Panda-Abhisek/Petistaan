@@ -1,0 +1,42 @@
+2025-08-21T13:31:44.319+05:30  INFO 23000 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Starting Demo using Java 21.0.7 with PID 23000 (C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan\target\classes started by Dell in C:\Users\Dell\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\MyProjects\Spring-Data\Petistaan)
+2025-08-21T13:31:44.320+05:30  INFO 23000 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : The following 1 profile is active: "prod"
+2025-08-21T13:31:44.628+05:30  INFO 23000 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-21T13:31:44.648+05:30  INFO 23000 --- [Petistaan] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2025-08-21T13:31:44.749+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-21T13:31:44.750+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-21T13:31:44.750+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-21T13:31:44.771+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-21T13:31:44.771+05:30  INFO 23000 --- [Petistaan] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 449 ms
+2025-08-21T13:31:44.871+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-21T13:31:44.874+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-21T13:31:44.883+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-21T13:31:44.884+05:30  INFO 23000 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-08-21T13:31:44.925+05:30  INFO 23000 --- [Petistaan] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@622dc576
+2025-08-21T13:31:44.925+05:30  INFO 23000 --- [Petistaan] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-08-21T13:31:44.934+05:30  INFO 23000 --- [Petistaan] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 16.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-21T13:31:45.015+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-21T13:31:45.067+05:30  INFO 23000 --- [Petistaan] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-21T13:31:45.244+05:30  WARN 23000 --- [Petistaan] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-21T13:31:45.580+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-21T13:31:45.583+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-08-21T13:31:45.618+05:30  INFO 23000 --- [Petistaan] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-21T13:31:45.625+05:30  INFO 23000 --- [Petistaan] [restartedMain] com.abhishekvermaa10.Demo                : Started Demo in 1.341 seconds (process running for 19.061)
+2025-08-21T13:31:45.628+05:30  INFO 23000 --- [Petistaan] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-21T13:31:48.963+05:30  INFO 23000 --- [Petistaan] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-21T13:31:48.963+05:30  INFO 23000 --- [Petistaan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-21T13:31:48.964+05:30  INFO 23000 --- [Petistaan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-21T13:31:48.974+05:30  INFO 23000 --- [Petistaan] [http-nio-8080-exec-2] com.abhishekvermaa10.aspect.LogAspect    : Entered OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int,String) with arguments as [23, en]
+2025-08-21T13:31:50.063+05:30  INFO 23000 --- [Petistaan] [http-nio-8080-exec-2] com.abhishekvermaa10.aspect.LogAspect    : Completed OwnerDTO com.abhishekvermaa10.service.impl.OwnerServiceImpl.findOwner(int,String) with result as OwnerDTO(id=23, firstName=Andrew, lastName=Murphy, gender=M, city=Thiruvananthapuram, state=Kerala, mobileNumber=9009009023, emailId=andrew.murphy@scaleupindia.com, petDTO=DomesticPetDTO(super=PetDTO(id=23, name=Milo, gender=M, type=RABBIT, ownerDTO=null), birthDate=1976-06-06, formattedBirthDate=Sunday, June 6, 1976))
+2025-08-21T13:33:31.649+05:30  INFO 23000 --- [Petistaan] [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-21T13:33:31.650+05:30  INFO 23000 --- [Petistaan] [RMI TCP Connection(12)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-21T13:33:31.657+05:30  INFO 23000 --- [Petistaan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-21T13:33:31.660+05:30  INFO 23000 --- [Petistaan] [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-21T13:33:31.660+05:30  INFO 23000 --- [Petistaan] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-08-21T13:33:31.661+05:30  INFO 23000 --- [Petistaan] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
